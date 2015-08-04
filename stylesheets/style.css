@@ -6,6 +6,11 @@ body {
   color:#777;
   font-weight:300;
 }
+  header, section, footer {
+    width:100%;
+    max-width: 1280px;
+    margin:0 auto;
+  }
 header:after,
 section:after,
 footer:after{
@@ -183,14 +188,6 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
-  }
-
-  header, section, footer {
-    float:none;
-    position:static;
-    width:100%;
-    max-width: 1280px;
-    margin:0 auto;
   }
 
   section {
