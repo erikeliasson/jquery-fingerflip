@@ -1,17 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
+  padding:0;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
-}
-header,
-section,
-footer{
-  width:100%;
-  max-width: 1280px;
-  margin:0 auto;
 }
 header:after,
 section:after,
@@ -168,9 +161,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
+  padding:50px 0;
 }
 
 small {
@@ -185,10 +176,6 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -201,16 +188,12 @@ footer {
   header, section, footer {
     float:none;
     position:static;
-    width:auto;
-  }
-
-  header {
-    padding-right:320px;
+    width:100%;
+    max-width: 1280px;
+    margin:0 auto;
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
